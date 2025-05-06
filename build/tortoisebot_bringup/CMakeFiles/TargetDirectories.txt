@@ -1,9 +1,0 @@
-/home/ali/kiosk_toolbox/build/tortoisebot_bringup/CMakeFiles/uninstall.dir
-/home/ali/kiosk_toolbox/build/tortoisebot_bringup/CMakeFiles/tortoisebot_bringup_uninstall.dir
-/home/ali/kiosk_toolbox/build/tortoisebot_bringup/CMakeFiles/test.dir
-/home/ali/kiosk_toolbox/build/tortoisebot_bringup/CMakeFiles/edit_cache.dir
-/home/ali/kiosk_toolbox/build/tortoisebot_bringup/CMakeFiles/rebuild_cache.dir
-/home/ali/kiosk_toolbox/build/tortoisebot_bringup/CMakeFiles/list_install_components.dir
-/home/ali/kiosk_toolbox/build/tortoisebot_bringup/CMakeFiles/install.dir
-/home/ali/kiosk_toolbox/build/tortoisebot_bringup/CMakeFiles/install/local.dir
-/home/ali/kiosk_toolbox/build/tortoisebot_bringup/CMakeFiles/install/strip.dir

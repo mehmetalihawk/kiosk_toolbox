@@ -1,7 +1,0 @@
-[console_scripts]
-combine = ali_rob.combine:main
-control = ali_rob.control:main
-gyro_mpu6050 = ali_rob.gyro_mpu6050:main
-line_following = ali_rob.line_following:main
-mpu6050 = ali_rob.mpu6050:main
-obstical_avoidence = ali_rob.obstical_avoidence:main

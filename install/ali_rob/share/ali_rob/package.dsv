@@ -1,8 +1,0 @@
-source;ros_domain_id.txt
-source;share/ali_rob/hook/pythonpath.ps1
-source;share/ali_rob/hook/pythonpath.dsv
-source;share/ali_rob/hook/pythonpath.sh
-source;ros_domain_id.txt
-source;share/ali_rob/hook/ament_prefix_path.ps1
-source;share/ali_rob/hook/ament_prefix_path.dsv
-source;share/ali_rob/hook/ament_prefix_path.sh

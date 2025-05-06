@@ -1,0 +1,2 @@
+[console_scripts]
+odometry_calculator = odometry_calculator.odometry_calculator:main

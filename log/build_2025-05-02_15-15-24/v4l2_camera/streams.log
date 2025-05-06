@@ -1,0 +1,106 @@
+[0.045s] Invoking command in '/home/ali/kiosk_toolbox/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble /usr/bin/cmake /home/ali/kiosk_toolbox/src/tortoisebot/v4l2_camera -DCMAKE_INSTALL_PREFIX=/home/ali/kiosk_toolbox/install/v4l2_camera
+[0.339s] -- The C compiler identification is GNU 12.3.0
+[0.354s] -- The CXX compiler identification is GNU 12.3.0
+[0.382s] -- Detecting C compiler ABI info
+[0.498s] -- Detecting C compiler ABI info - done
+[0.507s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[0.507s] -- Detecting C compile features
+[0.508s] -- Detecting C compile features - done
+[0.517s] -- Detecting CXX compiler ABI info
+[0.741s] -- Detecting CXX compiler ABI info - done
+[0.782s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[0.782s] -- Detecting CXX compile features
+[0.782s] -- Detecting CXX compile features - done
+[0.811s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.244s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.841s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.989s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[4.540s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.616s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.708s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.828s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.007s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.341s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.355s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.640s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.723s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.858s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.918s] -- Looking for pthread.h
+[6.123s] -- Looking for pthread.h - found
+[6.124s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.380s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.380s] -- Found Threads: TRUE  
+[6.576s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[6.668s] -- Found camera_info_manager: 3.1.11 (/opt/ros/humble/share/camera_info_manager/cmake)
+[6.813s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[6.848s] -- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)
+[6.935s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.346s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.346s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ali/kiosk_toolbox/src/tortoisebot/v4l2_camera/include>
+[7.346s] -- Configured cppcheck exclude dirs and/or files: 
+[7.346s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.346s] -- Configured cpplint exclude dirs and/or files: 
+[7.354s] -- Added test 'lint_cmake' to check CMake code style
+[7.354s] -- Added test 'uncrustify' to check C / C++ code style
+[7.354s] -- Configured uncrustify additional arguments: 
+[7.359s] -- Added test 'xmllint' to check XML markup files
+[7.368s] -- Configuring done
+[7.427s] -- Generating done
+[7.451s] -- Build files have been written to: /home/ali/kiosk_toolbox/build/v4l2_camera
+[7.517s] Invoked command in '/home/ali/kiosk_toolbox/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble /usr/bin/cmake /home/ali/kiosk_toolbox/src/tortoisebot/v4l2_camera -DCMAKE_INSTALL_PREFIX=/home/ali/kiosk_toolbox/install/v4l2_camera
+[7.518s] Invoking command in '/home/ali/kiosk_toolbox/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble /usr/bin/cmake --build /home/ali/kiosk_toolbox/build/v4l2_camera -- -j16 -l16
+[7.672s] [ 12%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o[0m
+[7.673s] [ 25%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/parameters.cpp.o[0m
+[7.689s] [ 37%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o[0m
+[20.704s] [ 50%] [32m[1mLinking CXX shared library libv4l2_camera.so[0m
+[21.254s] [ 50%] Built target v4l2_camera
+[21.272s] [ 62%] [32mBuilding CXX object CMakeFiles/v4l2_camera_compose_test.dir/src/v4l2_camera_compose_test.cpp.o[0m
+[21.279s] [ 75%] [32mBuilding CXX object CMakeFiles/v4l2_camera_node.dir/src/v4l2_camera_node.cpp.o[0m
+[24.148s] [ 87%] [32m[1mLinking CXX executable v4l2_camera_node[0m
+[24.729s] [ 87%] Built target v4l2_camera_node
+[28.367s] [100%] [32m[1mLinking CXX executable v4l2_camera_compose_test[0m
+[28.949s] [100%] Built target v4l2_camera_compose_test
+[28.961s] Invoked command in '/home/ali/kiosk_toolbox/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble /usr/bin/cmake --build /home/ali/kiosk_toolbox/build/v4l2_camera -- -j16 -l16
+[28.963s] Invoking command in '/home/ali/kiosk_toolbox/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble /usr/bin/cmake --install /home/ali/kiosk_toolbox/build/v4l2_camera
+[28.973s] -- Install configuration: ""
+[28.973s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/include
+[28.974s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/include/v4l2_camera
+[28.974s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/include/v4l2_camera/v4l2_camera.hpp
+[28.974s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp
+[28.974s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/include/v4l2_camera/parameters.hpp
+[28.974s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/include/v4l2_camera/pixel_format.hpp
+[28.974s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/include/v4l2_camera/image_format.hpp
+[28.974s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/include/v4l2_camera/control.hpp
+[28.974s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/include/v4l2_camera/visibility_control.h
+[28.974s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/include/v4l2_camera/fourcc.hpp
+[28.975s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/lib/libv4l2_camera.so
+[28.982s] -- Set runtime path of "/home/ali/kiosk_toolbox/install/v4l2_camera/lib/libv4l2_camera.so" to ""
+[28.983s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node
+[28.983s] -- Set runtime path of "/home/ali/kiosk_toolbox/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node" to ""
+[28.983s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test
+[28.987s] -- Set runtime path of "/home/ali/kiosk_toolbox/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test" to ""
+[28.988s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/share/v4l2_camera/environment/library_path.sh
+[28.988s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/share/v4l2_camera/environment/library_path.dsv
+[28.988s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/share/ament_index/resource_index/package_run_dependencies/v4l2_camera
+[28.988s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/share/ament_index/resource_index/parent_prefix_path/v4l2_camera
+[28.988s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.sh
+[28.988s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.dsv
+[28.988s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/share/v4l2_camera/environment/path.sh
+[28.989s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/share/v4l2_camera/environment/path.dsv
+[28.989s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/share/v4l2_camera/local_setup.bash
+[28.989s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/share/v4l2_camera/local_setup.sh
+[28.989s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/share/v4l2_camera/local_setup.zsh
+[28.989s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/share/v4l2_camera/local_setup.dsv
+[28.989s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/share/v4l2_camera/package.dsv
+[28.989s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/share/ament_index/resource_index/packages/v4l2_camera
+[28.989s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/share/ament_index/resource_index/rclcpp_components/v4l2_camera
+[28.990s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport.cmake
+[28.990s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport-noconfig.cmake
+[28.990s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.990s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_targets-extras.cmake
+[28.990s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[28.990s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.990s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig.cmake
+[28.991s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig-version.cmake
+[28.991s] -- Installing: /home/ali/kiosk_toolbox/install/v4l2_camera/share/v4l2_camera/package.xml
+[28.994s] Invoked command in '/home/ali/kiosk_toolbox/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble /usr/bin/cmake --install /home/ali/kiosk_toolbox/build/v4l2_camera

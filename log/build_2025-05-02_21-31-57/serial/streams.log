@@ -1,0 +1,28 @@
+[0.118s] Invoking command in '/home/ali/kiosk_toolbox/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/kiosk_toolbox/install/tortoisebot_control:/home/ali/kiosk_toolbox/install/odometry_calculator:/home/ali/kiosk_toolbox/install/bno055:/home/ali/kiosk_toolbox/install/ali_rob:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble /usr/bin/cmake --build /home/ali/kiosk_toolbox/build/serial -- -j16 -l16
+[1.909s] [100%] Built target serial
+[1.920s] Invoked command in '/home/ali/kiosk_toolbox/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/kiosk_toolbox/install/tortoisebot_control:/home/ali/kiosk_toolbox/install/odometry_calculator:/home/ali/kiosk_toolbox/install/bno055:/home/ali/kiosk_toolbox/install/ali_rob:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble /usr/bin/cmake --build /home/ali/kiosk_toolbox/build/serial -- -j16 -l16
+[1.933s] Invoking command in '/home/ali/kiosk_toolbox/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/kiosk_toolbox/install/tortoisebot_control:/home/ali/kiosk_toolbox/install/odometry_calculator:/home/ali/kiosk_toolbox/install/bno055:/home/ali/kiosk_toolbox/install/ali_rob:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble /usr/bin/cmake --install /home/ali/kiosk_toolbox/build/serial
+[1.973s] -- Install configuration: ""
+[1.974s] -- Up-to-date: /home/ali/kiosk_toolbox/install/serial/share/serial/environment/library_path.sh
+[1.974s] -- Up-to-date: /home/ali/kiosk_toolbox/install/serial/share/serial/environment/library_path.dsv
+[1.974s] -- Up-to-date: /home/ali/kiosk_toolbox/install/serial/lib/libserial.a
+[1.974s] -- Up-to-date: /home/ali/kiosk_toolbox/install/serial/include/serial/serial.h
+[1.974s] -- Up-to-date: /home/ali/kiosk_toolbox/install/serial/include/serial/v8stdint.h
+[1.974s] -- Up-to-date: /home/ali/kiosk_toolbox/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[1.975s] -- Up-to-date: /home/ali/kiosk_toolbox/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[1.975s] -- Up-to-date: /home/ali/kiosk_toolbox/install/serial/share/serial/environment/ament_prefix_path.sh
+[1.975s] -- Up-to-date: /home/ali/kiosk_toolbox/install/serial/share/serial/environment/ament_prefix_path.dsv
+[1.975s] -- Up-to-date: /home/ali/kiosk_toolbox/install/serial/share/serial/environment/path.sh
+[1.975s] -- Up-to-date: /home/ali/kiosk_toolbox/install/serial/share/serial/environment/path.dsv
+[1.975s] -- Up-to-date: /home/ali/kiosk_toolbox/install/serial/share/serial/local_setup.bash
+[1.975s] -- Up-to-date: /home/ali/kiosk_toolbox/install/serial/share/serial/local_setup.sh
+[1.975s] -- Up-to-date: /home/ali/kiosk_toolbox/install/serial/share/serial/local_setup.zsh
+[1.976s] -- Up-to-date: /home/ali/kiosk_toolbox/install/serial/share/serial/local_setup.dsv
+[1.976s] -- Installing: /home/ali/kiosk_toolbox/install/serial/share/serial/package.dsv
+[1.976s] -- Up-to-date: /home/ali/kiosk_toolbox/install/serial/share/ament_index/resource_index/packages/serial
+[1.976s] -- Up-to-date: /home/ali/kiosk_toolbox/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.976s] -- Up-to-date: /home/ali/kiosk_toolbox/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[1.976s] -- Up-to-date: /home/ali/kiosk_toolbox/install/serial/share/serial/cmake/serialConfig.cmake
+[1.976s] -- Up-to-date: /home/ali/kiosk_toolbox/install/serial/share/serial/cmake/serialConfig-version.cmake
+[1.977s] -- Up-to-date: /home/ali/kiosk_toolbox/install/serial/share/serial/package.xml
+[2.012s] Invoked command in '/home/ali/kiosk_toolbox/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/kiosk_toolbox/install/tortoisebot_control:/home/ali/kiosk_toolbox/install/odometry_calculator:/home/ali/kiosk_toolbox/install/bno055:/home/ali/kiosk_toolbox/install/ali_rob:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble /usr/bin/cmake --install /home/ali/kiosk_toolbox/build/serial

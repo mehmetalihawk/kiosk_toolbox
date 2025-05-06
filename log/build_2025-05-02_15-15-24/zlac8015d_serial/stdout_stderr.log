@@ -1,0 +1,89 @@
+-- The C compiler identification is GNU 12.3.0
+-- The CXX compiler identification is GNU 12.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found serial: 1.2.1 (/home/ali/kiosk_toolbox/install/serial/share/serial/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ali/kiosk_toolbox/build/zlac8015d_serial
+[  9%] [32mBuilding CXX object CMakeFiles/example.dir/src/zlac8015d.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/example.dir/src/example.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/zlac_run.dir/src/zlac_run.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/zlac_run.dir/src/zlac8015d.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/zlac8015d.dir/src/zlac8015d.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/zlac_run_dummy.dir/src/zlac_run_dummy.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/zlac_run_dummy.dir/src/zlac8015d.cpp.o[0m
+[ 72%] [32m[1mLinking CXX executable example[0m
+[ 81%] [32m[1mLinking CXX static library libzlac8015d.a[0m
+[ 81%] Built target zlac8015d
+[ 81%] Built target example
+[ 90%] [32m[1mLinking CXX executable zlac_run[0m
+[ 90%] Built target zlac_run
+[100%] [32m[1mLinking CXX executable zlac_run_dummy[0m
+[100%] Built target zlac_run_dummy
+-- Install configuration: ""
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/environment/library_path.sh
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/environment/library_path.dsv
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/include/include
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/include/include/zlac8015d.h
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/include/include/Comm
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/include/include/Comm/crc_check.h
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/lib/zlac8015d_serial/example
+-- Set runtime path of "/home/ali/kiosk_toolbox/install/zlac8015d_serial/lib/zlac8015d_serial/example" to ""
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/lib/zlac8015d_serial/zlac_run
+-- Set runtime path of "/home/ali/kiosk_toolbox/install/zlac8015d_serial/lib/zlac8015d_serial/zlac_run" to ""
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/lib/zlac8015d_serial/zlac_run_dummy
+-- Set runtime path of "/home/ali/kiosk_toolbox/install/zlac8015d_serial/lib/zlac8015d_serial/zlac_run_dummy" to ""
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/lib/libzlac8015d.a
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/ament_index/resource_index/package_run_dependencies/zlac8015d_serial
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/ament_index/resource_index/parent_prefix_path/zlac8015d_serial
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/environment/ament_prefix_path.sh
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/environment/ament_prefix_path.dsv
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/environment/path.sh
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/environment/path.dsv
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/local_setup.bash
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/local_setup.sh
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/local_setup.zsh
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/local_setup.dsv
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/package.dsv
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/ament_index/resource_index/packages/zlac8015d_serial
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/cmake/zlac8015dExport.cmake
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/cmake/zlac8015dExport-noconfig.cmake
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/cmake/zlac8015d_serialConfig.cmake
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/cmake/zlac8015d_serialConfig-version.cmake
+-- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/package.xml

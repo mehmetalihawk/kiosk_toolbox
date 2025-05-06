@@ -1,0 +1,23 @@
+[2.885s] Invoking command in '/home/ali/kiosk_toolbox/src/bno055-main': PYTHONPATH=/home/ali/kiosk_toolbox/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ali/kiosk_toolbox/install/bno055/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/ali/kiosk_toolbox/build/bno055/build install --record /home/ali/kiosk_toolbox/build/bno055/install.log --single-version-externally-managed install_data
+[3.720s] running egg_info
+[3.937s] writing ../../build/bno055/bno055.egg-info/PKG-INFO
+[3.938s] writing dependency_links to ../../build/bno055/bno055.egg-info/dependency_links.txt
+[3.940s] writing entry points to ../../build/bno055/bno055.egg-info/entry_points.txt
+[3.941s] writing requirements to ../../build/bno055/bno055.egg-info/requires.txt
+[3.941s] writing top-level names to ../../build/bno055/bno055.egg-info/top_level.txt
+[4.384s] reading manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[4.385s] adding license file 'LICENSE'
+[4.385s] adding license file 'AUTHORS'
+[4.390s] writing manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[4.390s] running build
+[4.391s] running build_py
+[4.397s] running install
+[4.431s] running install_lib
+[4.591s] running install_data
+[4.592s] running install_egg_info
+[4.615s] removing '/home/ali/kiosk_toolbox/install/bno055/lib/python3.10/site-packages/bno055-0.5.0-py3.10.egg-info' (and everything under it)
+[4.615s] Copying ../../build/bno055/bno055.egg-info to /home/ali/kiosk_toolbox/install/bno055/lib/python3.10/site-packages/bno055-0.5.0-py3.10.egg-info
+[4.615s] running install_scripts
+[4.692s] Installing bno055 script to /home/ali/kiosk_toolbox/install/bno055/lib/bno055
+[4.692s] writing list of installed files to '/home/ali/kiosk_toolbox/build/bno055/install.log'
+[4.722s] Invoked command in '/home/ali/kiosk_toolbox/src/bno055-main' returned '0': PYTHONPATH=/home/ali/kiosk_toolbox/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ali/kiosk_toolbox/install/bno055/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/ali/kiosk_toolbox/build/bno055/build install --record /home/ali/kiosk_toolbox/build/bno055/install.log --single-version-externally-managed install_data

@@ -1,0 +1,9 @@
+/home/ali/kiosk_toolbox/build/tortoisebot_imu/CMakeFiles/uninstall.dir
+/home/ali/kiosk_toolbox/build/tortoisebot_imu/CMakeFiles/tortoisebot_imu_uninstall.dir
+/home/ali/kiosk_toolbox/build/tortoisebot_imu/CMakeFiles/test.dir
+/home/ali/kiosk_toolbox/build/tortoisebot_imu/CMakeFiles/edit_cache.dir
+/home/ali/kiosk_toolbox/build/tortoisebot_imu/CMakeFiles/rebuild_cache.dir
+/home/ali/kiosk_toolbox/build/tortoisebot_imu/CMakeFiles/list_install_components.dir
+/home/ali/kiosk_toolbox/build/tortoisebot_imu/CMakeFiles/install.dir
+/home/ali/kiosk_toolbox/build/tortoisebot_imu/CMakeFiles/install/local.dir
+/home/ali/kiosk_toolbox/build/tortoisebot_imu/CMakeFiles/install/strip.dir

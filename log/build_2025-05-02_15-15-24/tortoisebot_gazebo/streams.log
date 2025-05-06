@@ -1,0 +1,53 @@
+[2.314s] Invoking command in '/home/ali/kiosk_toolbox/build/tortoisebot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble /usr/bin/cmake /home/ali/kiosk_toolbox/src/tortoisebot/tortoisebot_gazebo -DCMAKE_INSTALL_PREFIX=/home/ali/kiosk_toolbox/install/tortoisebot_gazebo
+[2.392s] -- The C compiler identification is GNU 12.3.0
+[2.481s] -- The CXX compiler identification is GNU 12.3.0
+[2.493s] -- Detecting C compiler ABI info
+[2.574s] -- Detecting C compiler ABI info - done
+[2.578s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[2.579s] -- Detecting C compile features
+[2.579s] -- Detecting C compile features - done
+[2.582s] -- Detecting CXX compiler ABI info
+[2.664s] -- Detecting CXX compiler ABI info - done
+[2.672s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[2.673s] -- Detecting CXX compile features
+[2.673s] -- Detecting CXX compile features - done
+[2.681s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.255s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.608s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.187s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.198s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.199s] -- Added test 'lint_cmake' to check CMake code style
+[5.208s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.208s] -- Added test 'xmllint' to check XML markup files
+[5.217s] -- Configuring done
+[5.221s] -- Generating done
+[5.233s] -- Build files have been written to: /home/ali/kiosk_toolbox/build/tortoisebot_gazebo
+[5.256s] Invoked command in '/home/ali/kiosk_toolbox/build/tortoisebot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble /usr/bin/cmake /home/ali/kiosk_toolbox/src/tortoisebot/tortoisebot_gazebo -DCMAKE_INSTALL_PREFIX=/home/ali/kiosk_toolbox/install/tortoisebot_gazebo
+[5.262s] Invoking command in '/home/ali/kiosk_toolbox/build/tortoisebot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble /usr/bin/cmake --build /home/ali/kiosk_toolbox/build/tortoisebot_gazebo -- -j16 -l16
+[7.640s] Invoked command in '/home/ali/kiosk_toolbox/build/tortoisebot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble /usr/bin/cmake --build /home/ali/kiosk_toolbox/build/tortoisebot_gazebo -- -j16 -l16
+[7.642s] Invoking command in '/home/ali/kiosk_toolbox/build/tortoisebot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble /usr/bin/cmake --install /home/ali/kiosk_toolbox/build/tortoisebot_gazebo
+[9.034s] -- Install configuration: ""
+[9.034s] -- Installing: /home/ali/kiosk_toolbox/install/tortoisebot_gazebo/share/tortoisebot_gazebo/gazebo
+[9.034s] -- Installing: /home/ali/kiosk_toolbox/install/tortoisebot_gazebo/share/tortoisebot_gazebo/gazebo/tortoisebot_physics.gazebo
+[9.034s] -- Installing: /home/ali/kiosk_toolbox/install/tortoisebot_gazebo/share/tortoisebot_gazebo/gazebo/tortoisebot_plugins.gazebo
+[9.034s] -- Installing: /home/ali/kiosk_toolbox/install/tortoisebot_gazebo/share/tortoisebot_gazebo/gazebo/tortoisebot_materials.gazebo
+[9.034s] -- Installing: /home/ali/kiosk_toolbox/install/tortoisebot_gazebo/share/tortoisebot_gazebo/launch
+[9.034s] -- Installing: /home/ali/kiosk_toolbox/install/tortoisebot_gazebo/share/tortoisebot_gazebo/launch/gazebo.launch.py
+[9.034s] -- Installing: /home/ali/kiosk_toolbox/install/tortoisebot_gazebo/share/tortoisebot_gazebo/worlds
+[9.035s] -- Installing: /home/ali/kiosk_toolbox/install/tortoisebot_gazebo/share/tortoisebot_gazebo/worlds/room2.sdf
+[9.035s] -- Installing: /home/ali/kiosk_toolbox/install/tortoisebot_gazebo/share/ament_index/resource_index/package_run_dependencies/tortoisebot_gazebo
+[9.035s] -- Installing: /home/ali/kiosk_toolbox/install/tortoisebot_gazebo/share/ament_index/resource_index/parent_prefix_path/tortoisebot_gazebo
+[9.035s] -- Installing: /home/ali/kiosk_toolbox/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/ament_prefix_path.sh
+[9.035s] -- Installing: /home/ali/kiosk_toolbox/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/ament_prefix_path.dsv
+[9.035s] -- Installing: /home/ali/kiosk_toolbox/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/path.sh
+[9.035s] -- Installing: /home/ali/kiosk_toolbox/install/tortoisebot_gazebo/share/tortoisebot_gazebo/environment/path.dsv
+[9.035s] -- Installing: /home/ali/kiosk_toolbox/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.bash
+[9.035s] -- Installing: /home/ali/kiosk_toolbox/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.sh
+[9.035s] -- Installing: /home/ali/kiosk_toolbox/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.zsh
+[9.035s] -- Installing: /home/ali/kiosk_toolbox/install/tortoisebot_gazebo/share/tortoisebot_gazebo/local_setup.dsv
+[9.035s] -- Installing: /home/ali/kiosk_toolbox/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.dsv
+[9.036s] -- Installing: /home/ali/kiosk_toolbox/install/tortoisebot_gazebo/share/ament_index/resource_index/packages/tortoisebot_gazebo
+[9.036s] -- Installing: /home/ali/kiosk_toolbox/install/tortoisebot_gazebo/share/tortoisebot_gazebo/cmake/tortoisebot_gazeboConfig.cmake
+[9.036s] -- Installing: /home/ali/kiosk_toolbox/install/tortoisebot_gazebo/share/tortoisebot_gazebo/cmake/tortoisebot_gazeboConfig-version.cmake
+[9.036s] -- Installing: /home/ali/kiosk_toolbox/install/tortoisebot_gazebo/share/tortoisebot_gazebo/package.xml
+[9.048s] Invoked command in '/home/ali/kiosk_toolbox/build/tortoisebot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble /usr/bin/cmake --install /home/ali/kiosk_toolbox/build/tortoisebot_gazebo

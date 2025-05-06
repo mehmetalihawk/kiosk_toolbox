@@ -1,0 +1,21 @@
+[2.929s] Invoking command in '/home/ali/kiosk_toolbox/src/odometry_calculator': PYTHONPATH=/home/ali/kiosk_toolbox/build/odometry_calculator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ali/kiosk_toolbox/install/odometry_calculator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/odometry_calculator build --build-base /home/ali/kiosk_toolbox/build/odometry_calculator/build install --record /home/ali/kiosk_toolbox/build/odometry_calculator/install.log --single-version-externally-managed install_data
+[3.432s] running egg_info
+[3.453s] writing ../../build/odometry_calculator/odometry_calculator.egg-info/PKG-INFO
+[3.453s] writing dependency_links to ../../build/odometry_calculator/odometry_calculator.egg-info/dependency_links.txt
+[3.454s] writing entry points to ../../build/odometry_calculator/odometry_calculator.egg-info/entry_points.txt
+[3.454s] writing requirements to ../../build/odometry_calculator/odometry_calculator.egg-info/requires.txt
+[3.454s] writing top-level names to ../../build/odometry_calculator/odometry_calculator.egg-info/top_level.txt
+[3.497s] reading manifest file '../../build/odometry_calculator/odometry_calculator.egg-info/SOURCES.txt'
+[3.498s] writing manifest file '../../build/odometry_calculator/odometry_calculator.egg-info/SOURCES.txt'
+[3.498s] running build
+[3.498s] running build_py
+[3.498s] running install
+[3.502s] running install_lib
+[3.524s] running install_data
+[3.524s] running install_egg_info
+[3.546s] removing '/home/ali/kiosk_toolbox/install/odometry_calculator/lib/python3.10/site-packages/odometry_calculator-0.0.0-py3.10.egg-info' (and everything under it)
+[3.546s] Copying ../../build/odometry_calculator/odometry_calculator.egg-info to /home/ali/kiosk_toolbox/install/odometry_calculator/lib/python3.10/site-packages/odometry_calculator-0.0.0-py3.10.egg-info
+[3.546s] running install_scripts
+[3.622s] Installing odometry_calculator script to /home/ali/kiosk_toolbox/install/odometry_calculator/lib/odometry_calculator
+[3.623s] writing list of installed files to '/home/ali/kiosk_toolbox/build/odometry_calculator/install.log'
+[3.659s] Invoked command in '/home/ali/kiosk_toolbox/src/odometry_calculator' returned '0': PYTHONPATH=/home/ali/kiosk_toolbox/build/odometry_calculator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ali/kiosk_toolbox/install/odometry_calculator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/odometry_calculator build --build-base /home/ali/kiosk_toolbox/build/odometry_calculator/build install --record /home/ali/kiosk_toolbox/build/odometry_calculator/install.log --single-version-externally-managed install_data

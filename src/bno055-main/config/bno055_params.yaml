@@ -1,0 +1,28 @@
+bno055:
+  ros__parameters:
+    ros_topic_prefix: "bno055/"         # Tüm topic'lere bu prefix eklenecek
+    connection_type: "uart"             # UART bağlantısı (I2C değil)
+    uart_port: "/dev/ttyUSB3"           # USB portun (gerekirse ttyUSB1 olabilir)
+    uart_baudrate: 115200               # Standart baud rate
+    uart_timeout: 0.1                   # Veri okuma timeout
+    data_query_frequency: 100           # IMU verisi yayın frekansı (Hz)
+    calib_status_frequency: 0.1         # Kalibrasyon durumu yayın sıklığı
+    frame_id: "imu_link"                # IMU frame'in adı → URDF'e göre
+    operation_mode: 0x0C                # NDOF mode (9 DOF: gyro + acc + mag)
+    placement_axis_remap: "P2"          # IMU'nun montaj yönüne göre değiştirilebilir
+    acc_factor: 100.0                   # Acc ölçekleme
+    mag_factor: 16000000.0             # Magnetometer ölçekleme
+    gyr_factor: 900.0                   # Gyroscope ölçekleme
+    grav_factor: 100.0                  # Gravity ölçekleme
+    set_offsets: false                  # Kalibrasyon ofsetleri elle verilmeyecek
+
+    # Eğer sabit kalibrasyon offset'leri kullanacaksan açabilirsin:
+    offset_acc: [0xFFEC, 0x00A5, 0xFFE8]
+    offset_mag: [0xFFB4, 0xFE9E, 0x027D]
+    offset_gyr: [0x0002, 0xFFFF, 0xFFFF]
+
+    # İsteğe bağlı: varyansları belirtmek istersen aşağıdakileri aç
+    # variance_acc: [0.02, 0.02, 0.02]
+    # variance_angular_vel: [0.01, 0.01, 0.01]
+    # variance_orientation: [0.05, 0.05, 0.05]
+

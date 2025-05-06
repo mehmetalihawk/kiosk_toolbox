@@ -1,0 +1,40 @@
+[1.384s] Invoking command in '/home/ali/kiosk_toolbox/build/ros2_slam_auto_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/kiosk_toolbox/install/tortoisebot_control:/home/ali/kiosk_toolbox/install/odometry_calculator:/home/ali/kiosk_toolbox/install/bno055:/home/ali/kiosk_toolbox/install/ali_rob:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble /usr/bin/cmake --build /home/ali/kiosk_toolbox/build/ros2_slam_auto_navigation -- -j16 -l16
+[1.886s] Invoked command in '/home/ali/kiosk_toolbox/build/ros2_slam_auto_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/kiosk_toolbox/install/tortoisebot_control:/home/ali/kiosk_toolbox/install/odometry_calculator:/home/ali/kiosk_toolbox/install/bno055:/home/ali/kiosk_toolbox/install/ali_rob:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble /usr/bin/cmake --build /home/ali/kiosk_toolbox/build/ros2_slam_auto_navigation -- -j16 -l16
+[1.887s] Invoking command in '/home/ali/kiosk_toolbox/build/ros2_slam_auto_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/kiosk_toolbox/install/tortoisebot_control:/home/ali/kiosk_toolbox/install/odometry_calculator:/home/ali/kiosk_toolbox/install/bno055:/home/ali/kiosk_toolbox/install/ali_rob:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble /usr/bin/cmake --install /home/ali/kiosk_toolbox/build/ros2_slam_auto_navigation
+[1.916s] -- Install configuration: ""
+[1.916s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/config
+[1.916s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/config/twist_mux.yaml
+[1.916s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/config/nav2_params.yaml
+[1.917s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/config/mapper_params_online_async.yaml
+[1.917s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/description
+[1.917s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/description/gazebo_control.xacro
+[1.917s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/description/robot.urdf.xacro
+[1.917s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/description/inertial_macros.xacro
+[1.917s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/description/ros2_control.xacro
+[1.917s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/description/robot_base.xacro
+[1.917s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/description/depth_camera.xacro
+[1.918s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/description/camera.xacro
+[1.918s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/description/lidar.xacro
+[1.918s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/launch
+[1.918s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/launch/slam_navigation.launch.py
+[1.918s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/launch/navigation.launch.py
+[1.918s] -- Installing: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/launch/launch_sim.launch.py
+[1.919s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/launch/rsp.launch.py
+[1.919s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/worlds
+[1.919s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/worlds/simple.world
+[1.919s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ament_index/resource_index/package_run_dependencies/ros2_slam_auto_navigation
+[1.919s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ament_index/resource_index/parent_prefix_path/ros2_slam_auto_navigation
+[1.920s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/environment/ament_prefix_path.sh
+[1.920s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/environment/ament_prefix_path.dsv
+[1.920s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/environment/path.sh
+[1.920s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/environment/path.dsv
+[1.920s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/local_setup.bash
+[1.920s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/local_setup.sh
+[1.920s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/local_setup.zsh
+[1.920s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/local_setup.dsv
+[1.920s] -- Installing: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/package.dsv
+[1.921s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ament_index/resource_index/packages/ros2_slam_auto_navigation
+[1.921s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/cmake/ros2_slam_auto_navigationConfig.cmake
+[1.921s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/cmake/ros2_slam_auto_navigationConfig-version.cmake
+[1.921s] -- Up-to-date: /home/ali/kiosk_toolbox/install/ros2_slam_auto_navigation/share/ros2_slam_auto_navigation/package.xml
+[1.982s] Invoked command in '/home/ali/kiosk_toolbox/build/ros2_slam_auto_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/kiosk_toolbox/install/tortoisebot_control:/home/ali/kiosk_toolbox/install/odometry_calculator:/home/ali/kiosk_toolbox/install/bno055:/home/ali/kiosk_toolbox/install/ali_rob:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble /usr/bin/cmake --install /home/ali/kiosk_toolbox/build/ros2_slam_auto_navigation

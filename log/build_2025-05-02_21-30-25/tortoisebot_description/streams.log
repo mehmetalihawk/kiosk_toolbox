@@ -1,0 +1,40 @@
+[1.817s] Invoking command in '/home/ali/kiosk_toolbox/build/tortoisebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/kiosk_toolbox/install/tortoisebot_control:/home/ali/kiosk_toolbox/install/odometry_calculator:/home/ali/kiosk_toolbox/install/bno055:/home/ali/kiosk_toolbox/install/ali_rob:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble /usr/bin/cmake --build /home/ali/kiosk_toolbox/build/tortoisebot_description -- -j16 -l16
+[1.893s] Invoked command in '/home/ali/kiosk_toolbox/build/tortoisebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/kiosk_toolbox/install/tortoisebot_control:/home/ali/kiosk_toolbox/install/odometry_calculator:/home/ali/kiosk_toolbox/install/bno055:/home/ali/kiosk_toolbox/install/ali_rob:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble /usr/bin/cmake --build /home/ali/kiosk_toolbox/build/tortoisebot_description -- -j16 -l16
+[1.895s] Invoking command in '/home/ali/kiosk_toolbox/build/tortoisebot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/kiosk_toolbox/install/tortoisebot_control:/home/ali/kiosk_toolbox/install/odometry_calculator:/home/ali/kiosk_toolbox/install/bno055:/home/ali/kiosk_toolbox/install/ali_rob:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble /usr/bin/cmake --install /home/ali/kiosk_toolbox/build/tortoisebot_description
+[1.959s] -- Install configuration: ""
+[1.959s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/launch
+[1.959s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/launch/state_publisher.launch.py
+[1.959s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/launch/display.launch.py
+[1.959s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/models
+[1.959s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/models/meshes
+[1.960s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/models/meshes/castor_wheel.dae
+[1.960s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/models/meshes/base_link.dae
+[1.960s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/models/meshes/camera_holder.dae
+[1.960s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/models/meshes/wheel_right.dae
+[1.960s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/models/meshes/lidar.dae
+[1.960s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/models/meshes/camera_link.dae
+[1.960s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/models/meshes/wheel_left.dae
+[1.960s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/models/.DS_Store
+[1.960s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/models/urdf
+[1.960s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/models/urdf/tortoisebot_simple.gazebo
+[1.960s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/models/urdf/tortoisebot_simple.xacro
+[1.960s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/rviz
+[1.961s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/rviz/tortoisebot_sensor_display.rviz
+[1.961s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/worlds
+[1.961s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/worlds/big_env.sdf
+[1.961s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/ament_index/resource_index/package_run_dependencies/tortoisebot_description
+[1.961s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/ament_index/resource_index/parent_prefix_path/tortoisebot_description
+[1.961s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/environment/ament_prefix_path.sh
+[1.961s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/environment/ament_prefix_path.dsv
+[1.961s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/environment/path.sh
+[1.961s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/environment/path.dsv
+[1.961s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/local_setup.bash
+[1.961s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/local_setup.sh
+[1.961s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/local_setup.zsh
+[1.961s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/local_setup.dsv
+[1.962s] -- Installing: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/package.dsv
+[1.962s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/ament_index/resource_index/packages/tortoisebot_description
+[1.962s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/cmake/tortoisebot_descriptionConfig.cmake
+[1.962s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/cmake/tortoisebot_descriptionConfig-version.cmake
+[1.962s] -- Up-to-date: /home/ali/kiosk_toolbox/install/tortoisebot_description/share/tortoisebot_description/package.xml
+[2.118s] Invoked command in '/home/ali/kiosk_toolbox/build/tortoisebot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ali/kiosk_toolbox/install/tortoisebot_control:/home/ali/kiosk_toolbox/install/odometry_calculator:/home/ali/kiosk_toolbox/install/bno055:/home/ali/kiosk_toolbox/install/ali_rob:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble /usr/bin/cmake --install /home/ali/kiosk_toolbox/build/tortoisebot_description

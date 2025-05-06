@@ -1,0 +1,95 @@
+[0.153s] Invoking command in '/home/ali/kiosk_toolbox/build/zlac8015d_serial': AMENT_PREFIX_PATH=/home/ali/kiosk_toolbox/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ali/kiosk_toolbox/install/serial:/home/ali/ros2_ws/install/flexible_navigation:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo_bringup:/home/ali/ros2_ws/install/flexible_behavior_trees:/home/ali/ros2_ws/install/flexbe_behavior_engine:/home/ali/ros2_ws/install/flexbe_app:/home/ali/ros2_ws/install/flexbe_widget:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo_flexbe_behaviors:/home/ali/ros2_ws/install/flexbe_testing:/home/ali/ros2_ws/install/flex_nav_flexbe_states:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo_flexbe_states:/home/ali/ros2_ws/install/flexbe_msgs:/home/ali/ros2_ws/install/flex_nav_planners:/home/ali/ros2_ws/install/flex_nav_controllers:/home/ali/ros2_ws/install/flex_nav_common:/home/ali/ros2_ws/install/flex_nav_behaviors:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo_bt:/home/ali/ros2_ws/install/flex_bt_server:/home/ali/ros2_ws/install/flex_bt_msgs:/home/ali/ros2_ws/install/flex_bt_engine:/opt/ros/humble/opt/openeb_vendor:/opt/ros/humble/opt/libcaer_vendor:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble LD_LIBRARY_PATH=/home/ali/kiosk_toolbox/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ali/kiosk_toolbox/src/ROS2_ZLAC8015D_TeleopOdom-main -DCMAKE_INSTALL_PREFIX=/home/ali/kiosk_toolbox/install/zlac8015d_serial
+[1.491s] -- The C compiler identification is GNU 12.3.0
+[1.491s] -- The CXX compiler identification is GNU 12.3.0
+[1.491s] -- Detecting C compiler ABI info
+[1.491s] -- Detecting C compiler ABI info - done
+[1.491s] -- Check for working C compiler: /usr/lib/ccache/gcc - skipped
+[1.491s] -- Detecting C compile features
+[1.491s] -- Detecting C compile features - done
+[1.491s] -- Detecting CXX compiler ABI info
+[1.491s] -- Detecting CXX compiler ABI info - done
+[1.491s] -- Check for working CXX compiler: /usr/lib/ccache/g++ - skipped
+[1.491s] -- Detecting CXX compile features
+[1.491s] -- Detecting CXX compile features - done
+[1.492s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.248s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.536s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[3.774s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.799s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.847s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.889s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.952s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.276s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.304s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.711s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.844s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.022s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.092s] -- Looking for pthread.h
+[5.300s] -- Looking for pthread.h - found
+[5.300s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.527s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.531s] -- Found Threads: TRUE  
+[5.819s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[5.994s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[6.139s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[6.180s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[6.260s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.263s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.263s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.519s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.545s] -- Found serial: 1.2.1 (/home/ali/kiosk_toolbox/install/serial/share/serial/cmake)
+[6.731s] -- Configuring done
+[6.809s] -- Generating done
+[6.835s] -- Build files have been written to: /home/ali/kiosk_toolbox/build/zlac8015d_serial
+[6.875s] Invoked command in '/home/ali/kiosk_toolbox/build/zlac8015d_serial' returned '0': AMENT_PREFIX_PATH=/home/ali/kiosk_toolbox/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ali/kiosk_toolbox/install/serial:/home/ali/ros2_ws/install/flexible_navigation:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo_bringup:/home/ali/ros2_ws/install/flexible_behavior_trees:/home/ali/ros2_ws/install/flexbe_behavior_engine:/home/ali/ros2_ws/install/flexbe_app:/home/ali/ros2_ws/install/flexbe_widget:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo_flexbe_behaviors:/home/ali/ros2_ws/install/flexbe_testing:/home/ali/ros2_ws/install/flex_nav_flexbe_states:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo_flexbe_states:/home/ali/ros2_ws/install/flexbe_msgs:/home/ali/ros2_ws/install/flex_nav_planners:/home/ali/ros2_ws/install/flex_nav_controllers:/home/ali/ros2_ws/install/flex_nav_common:/home/ali/ros2_ws/install/flex_nav_behaviors:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo_bt:/home/ali/ros2_ws/install/flex_bt_server:/home/ali/ros2_ws/install/flex_bt_msgs:/home/ali/ros2_ws/install/flex_bt_engine:/opt/ros/humble/opt/openeb_vendor:/opt/ros/humble/opt/libcaer_vendor:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble LD_LIBRARY_PATH=/home/ali/kiosk_toolbox/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/ali/kiosk_toolbox/src/ROS2_ZLAC8015D_TeleopOdom-main -DCMAKE_INSTALL_PREFIX=/home/ali/kiosk_toolbox/install/zlac8015d_serial
+[6.877s] Invoking command in '/home/ali/kiosk_toolbox/build/zlac8015d_serial': AMENT_PREFIX_PATH=/home/ali/kiosk_toolbox/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ali/kiosk_toolbox/install/serial:/home/ali/ros2_ws/install/flexible_navigation:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo_bringup:/home/ali/ros2_ws/install/flexible_behavior_trees:/home/ali/ros2_ws/install/flexbe_behavior_engine:/home/ali/ros2_ws/install/flexbe_app:/home/ali/ros2_ws/install/flexbe_widget:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo_flexbe_behaviors:/home/ali/ros2_ws/install/flexbe_testing:/home/ali/ros2_ws/install/flex_nav_flexbe_states:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo_flexbe_states:/home/ali/ros2_ws/install/flexbe_msgs:/home/ali/ros2_ws/install/flex_nav_planners:/home/ali/ros2_ws/install/flex_nav_controllers:/home/ali/ros2_ws/install/flex_nav_common:/home/ali/ros2_ws/install/flex_nav_behaviors:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo_bt:/home/ali/ros2_ws/install/flex_bt_server:/home/ali/ros2_ws/install/flex_bt_msgs:/home/ali/ros2_ws/install/flex_bt_engine:/opt/ros/humble/opt/openeb_vendor:/opt/ros/humble/opt/libcaer_vendor:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble LD_LIBRARY_PATH=/home/ali/kiosk_toolbox/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ali/kiosk_toolbox/build/zlac8015d_serial -- -j16 -l16
+[6.981s] [  9%] [32mBuilding CXX object CMakeFiles/example.dir/src/zlac8015d.cpp.o[0m
+[6.984s] [ 18%] [32mBuilding CXX object CMakeFiles/example.dir/src/example.cpp.o[0m
+[6.984s] [ 27%] [32mBuilding CXX object CMakeFiles/zlac_run.dir/src/zlac_run.cpp.o[0m
+[6.988s] [ 36%] [32mBuilding CXX object CMakeFiles/zlac_run.dir/src/zlac8015d.cpp.o[0m
+[6.992s] [ 45%] [32mBuilding CXX object CMakeFiles/zlac8015d.dir/src/zlac8015d.cpp.o[0m
+[7.001s] [ 54%] [32mBuilding CXX object CMakeFiles/zlac_run_dummy.dir/src/zlac_run_dummy.cpp.o[0m
+[7.008s] [ 63%] [32mBuilding CXX object CMakeFiles/zlac_run_dummy.dir/src/zlac8015d.cpp.o[0m
+[7.041s] [ 72%] [32m[1mLinking CXX executable example[0m
+[7.047s] [ 81%] [32m[1mLinking CXX static library libzlac8015d.a[0m
+[7.207s] [ 81%] Built target zlac8015d
+[7.262s] [ 81%] Built target example
+[16.551s] [ 90%] [32m[1mLinking CXX executable zlac_run[0m
+[16.915s] [ 90%] Built target zlac_run
+[19.109s] [100%] [32m[1mLinking CXX executable zlac_run_dummy[0m
+[19.502s] [100%] Built target zlac_run_dummy
+[19.517s] Invoked command in '/home/ali/kiosk_toolbox/build/zlac8015d_serial' returned '0': AMENT_PREFIX_PATH=/home/ali/kiosk_toolbox/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ali/kiosk_toolbox/install/serial:/home/ali/ros2_ws/install/flexible_navigation:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo_bringup:/home/ali/ros2_ws/install/flexible_behavior_trees:/home/ali/ros2_ws/install/flexbe_behavior_engine:/home/ali/ros2_ws/install/flexbe_app:/home/ali/ros2_ws/install/flexbe_widget:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo_flexbe_behaviors:/home/ali/ros2_ws/install/flexbe_testing:/home/ali/ros2_ws/install/flex_nav_flexbe_states:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo_flexbe_states:/home/ali/ros2_ws/install/flexbe_msgs:/home/ali/ros2_ws/install/flex_nav_planners:/home/ali/ros2_ws/install/flex_nav_controllers:/home/ali/ros2_ws/install/flex_nav_common:/home/ali/ros2_ws/install/flex_nav_behaviors:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo_bt:/home/ali/ros2_ws/install/flex_bt_server:/home/ali/ros2_ws/install/flex_bt_msgs:/home/ali/ros2_ws/install/flex_bt_engine:/opt/ros/humble/opt/openeb_vendor:/opt/ros/humble/opt/libcaer_vendor:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble LD_LIBRARY_PATH=/home/ali/kiosk_toolbox/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ali/kiosk_toolbox/build/zlac8015d_serial -- -j16 -l16
+[19.519s] Invoking command in '/home/ali/kiosk_toolbox/build/zlac8015d_serial': AMENT_PREFIX_PATH=/home/ali/kiosk_toolbox/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ali/kiosk_toolbox/install/serial:/home/ali/ros2_ws/install/flexible_navigation:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo_bringup:/home/ali/ros2_ws/install/flexible_behavior_trees:/home/ali/ros2_ws/install/flexbe_behavior_engine:/home/ali/ros2_ws/install/flexbe_app:/home/ali/ros2_ws/install/flexbe_widget:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo_flexbe_behaviors:/home/ali/ros2_ws/install/flexbe_testing:/home/ali/ros2_ws/install/flex_nav_flexbe_states:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo_flexbe_states:/home/ali/ros2_ws/install/flexbe_msgs:/home/ali/ros2_ws/install/flex_nav_planners:/home/ali/ros2_ws/install/flex_nav_controllers:/home/ali/ros2_ws/install/flex_nav_common:/home/ali/ros2_ws/install/flex_nav_behaviors:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo_bt:/home/ali/ros2_ws/install/flex_bt_server:/home/ali/ros2_ws/install/flex_bt_msgs:/home/ali/ros2_ws/install/flex_bt_engine:/opt/ros/humble/opt/openeb_vendor:/opt/ros/humble/opt/libcaer_vendor:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble LD_LIBRARY_PATH=/home/ali/kiosk_toolbox/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ali/kiosk_toolbox/build/zlac8015d_serial
+[19.530s] -- Install configuration: ""
+[19.530s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/environment/library_path.sh
+[19.530s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/environment/library_path.dsv
+[19.531s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/include/include
+[19.531s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/include/include/zlac8015d.h
+[19.531s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/include/include/Comm
+[19.531s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/include/include/Comm/crc_check.h
+[19.531s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/lib/zlac8015d_serial/example
+[19.532s] -- Set runtime path of "/home/ali/kiosk_toolbox/install/zlac8015d_serial/lib/zlac8015d_serial/example" to ""
+[19.532s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/lib/zlac8015d_serial/zlac_run
+[19.536s] -- Set runtime path of "/home/ali/kiosk_toolbox/install/zlac8015d_serial/lib/zlac8015d_serial/zlac_run" to ""
+[19.536s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/lib/zlac8015d_serial/zlac_run_dummy
+[19.541s] -- Set runtime path of "/home/ali/kiosk_toolbox/install/zlac8015d_serial/lib/zlac8015d_serial/zlac_run_dummy" to ""
+[19.541s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/lib/libzlac8015d.a
+[19.541s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/ament_index/resource_index/package_run_dependencies/zlac8015d_serial
+[19.541s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/ament_index/resource_index/parent_prefix_path/zlac8015d_serial
+[19.541s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/environment/ament_prefix_path.sh
+[19.541s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/environment/ament_prefix_path.dsv
+[19.542s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/environment/path.sh
+[19.542s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/environment/path.dsv
+[19.542s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/local_setup.bash
+[19.542s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/local_setup.sh
+[19.542s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/local_setup.zsh
+[19.542s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/local_setup.dsv
+[19.542s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/package.dsv
+[19.543s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/ament_index/resource_index/packages/zlac8015d_serial
+[19.543s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/cmake/zlac8015dExport.cmake
+[19.543s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/cmake/zlac8015dExport-noconfig.cmake
+[19.543s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/cmake/ament_cmake_export_targets-extras.cmake
+[19.543s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/cmake/zlac8015d_serialConfig.cmake
+[19.543s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/cmake/zlac8015d_serialConfig-version.cmake
+[19.543s] -- Installing: /home/ali/kiosk_toolbox/install/zlac8015d_serial/share/zlac8015d_serial/package.xml
+[19.547s] Invoked command in '/home/ali/kiosk_toolbox/build/zlac8015d_serial' returned '0': AMENT_PREFIX_PATH=/home/ali/kiosk_toolbox/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ali/kiosk_toolbox/install/serial:/home/ali/ros2_ws/install/flexible_navigation:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo_bringup:/home/ali/ros2_ws/install/flexible_behavior_trees:/home/ali/ros2_ws/install/flexbe_behavior_engine:/home/ali/ros2_ws/install/flexbe_app:/home/ali/ros2_ws/install/flexbe_widget:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo_flexbe_behaviors:/home/ali/ros2_ws/install/flexbe_testing:/home/ali/ros2_ws/install/flex_nav_flexbe_states:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo_flexbe_states:/home/ali/ros2_ws/install/flexbe_msgs:/home/ali/ros2_ws/install/flex_nav_planners:/home/ali/ros2_ws/install/flex_nav_controllers:/home/ali/ros2_ws/install/flex_nav_common:/home/ali/ros2_ws/install/flex_nav_behaviors:/home/ali/ros2_ws/install/flex_bt_turtlebot_demo_bt:/home/ali/ros2_ws/install/flex_bt_server:/home/ali/ros2_ws/install/flex_bt_msgs:/home/ali/ros2_ws/install/flex_bt_engine:/opt/ros/humble/opt/openeb_vendor:/opt/ros/humble/opt/libcaer_vendor:/home/ali/ros2_ws/install/flexbe_onboard:/home/ali/ros2_ws/install/flexbe_states:/home/ali/ros2_ws/install/flexbe_mirror:/home/ali/ros2_ws/install/flexbe_input:/home/ali/ros2_ws/install/flex_bt_flexbe_states:/home/ali/ros2_ws/install/flexbe_core:/home/ali/ros2_ws/install/flex_nav_pure_pursuit:/opt/ros/humble LD_LIBRARY_PATH=/home/ali/kiosk_toolbox/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ali/kiosk_toolbox/build/zlac8015d_serial

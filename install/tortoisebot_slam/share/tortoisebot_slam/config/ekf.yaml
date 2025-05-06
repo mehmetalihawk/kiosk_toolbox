@@ -1,0 +1,47 @@
+ekf_filter_node:
+  ros__parameters:
+
+    # EKF çıktısının yayınlanma frekansı (Hz cinsinden)
+    frequency: 40.0
+
+    # 2D düzlemde çalıştığımız için true (z, roll, pitch ihmal edilir)
+    two_d_mode: true
+
+    # Hızlandırma verisi yayınlanmayacak
+    publish_acceleration: false
+
+    # TF yayını aktif
+    publish_tf: true
+
+    # Frame tanımlamaları
+    map_frame: map
+    odom_frame: odom
+    base_link_frame: base_link
+    world_frame: odom
+
+    # RF2O Lidar Odometry verisi
+    odom0: /odom
+    odom0_config: [
+      true,  true,  false,   # position: x, y, z
+      false, false, true,    # orientation: roll, pitch, yaw
+      true,  true,  false,   # linear velocity: vx, vy, vz
+      false, false, false,   # angular velocity: vroll, vpitch, vyaw
+      false, false, false    # acceleration: ax, ay, az
+    ]
+    odom0_differential: true
+    odom0_relative: true
+    odom0_queue_size: 10
+
+    # IMU verisi (BNO055)
+    imu0: /bno055/imu
+    imu0_config: [
+      false, false, false,   # position
+      true,  true,  true,    # orientation
+      false, false, false,   # linear velocity
+      true,  true,  true,    # angular velocity
+      false, false, false    # acceleration
+    ]
+    imu0_differential: false
+    imu0_relative: false
+    imu0_queue_size: 10
+
